@@ -1,0 +1,73 @@
+@import './base.less';
+
+
+
+#main {
+    .slide {
+        padding: .1rem;
+    }
+
+    .nav {
+        padding: .1rem;
+    }
+
+    .banner {
+        padding: 0 .1rem;
+
+        .left {
+            a {
+                display: flex;
+
+                img {
+                    width: 50%;
+                    height: 1.2rem;
+                }
+            }
+        }
+
+        .right {
+            a {
+                img {
+                    height: 2.4rem;
+                }
+            }
+        }
+    }
+
+    .brand {
+        padding: .1rem;
+
+    }
+
+    .sport {
+        padding: 0 .1rem;
+
+        .left,
+        .right {
+            a {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                // border: 1px solid #ccc;
+                p {
+                    text-align: center;
+                    font-size: .1rem;
+                }
+
+                button {
+                    background-color: skyblue;
+                    color: #fff;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .women,
+    .man {
+        padding: .1rem;
+    }
+}
